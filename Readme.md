@@ -33,15 +33,19 @@
 
 # 4
 
-   - La frontera de los días es 0
-   - La frontera de la edad es 1 y 120
-   - La frontera de la tarifa es 0
+   - La frontera de los días es -1 y 0
+   - La frontera de la edad es 0, 1, 120, 121
+   - La frontera de la tarifa es 0 y -1
  
 # 5
 
    | Número | Ejemplo Frontera | Resultado |
    | ------ | --------------------- | --------- |
    | 1 | calculoTarifa(1000000, 0, 30) | Correcto |
-   | 2 | calculoTarifa(3000000, 34, 1) | Correcto |
-   | 3 | calculoTarifa(2000000, 80, 120) | Correcto |
-   | 4 | calculoTarifa(0, 24, 45) | Correcto |
+   | 2 | calculoTarifa(500000, -1, 23) | Incorrecto |
+   | 3 | calculoTarifa(3000000, 34, 1) | Correcto |
+   | 4 | calculoTarifa(1400000, 25, 0) | Incorrecto |
+   | 5 | calculoTarifa(2000000, 80, 120) | Correcto |
+   | 6 | calculoTarifa(700000, 0, 121) | Incorrecto |
+   | 7 | calculoTarifa(0, 22, 45) | Correcto |
+   | 8 | calculoTarifa(-1, 34, 30) | Incorrecto |
