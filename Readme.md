@@ -6,6 +6,23 @@
    - Si la edad es negativa.
    - Si la edad es mayor a 120.
    - Si la tarifa base es negativa.
+```
+/**
+calcular la tarifa de cada billete según el trayecto, la antelación 
+en la que se obtiene el billete y la edad del pasajero, de acuerdo 
+con la normativa 005.
+@param tarifaBase valor base del vuelo
+@param diasAntelacion dias de antelación del vuelo
+@param edad - edad del pasajero
+@throws ExcepcionParametrosInvalidos DIAS_NEGATIVOS, si los días son negativos.
+				     EDAD_NEGATIVA, si la edad es negativa.
+				     MAYOR_QUE_EDAD_MAXIMA, si la edad es mayor a la máxima establecida.
+				     TARIFA_NEGATIVA, si la tarifa es negativa.
+				     
+**/
+public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
+```
+
 
 # 2
 
