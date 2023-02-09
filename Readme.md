@@ -1,12 +1,12 @@
-# AeroDescuentos
+## AeroDescuentos
 
-1)
+# 1
 
    - Si los días de antelación son negativos.
    - Si la edad es negativa.
    - Si la tarifa base es negativa
 
-2)
+# 2
 
    | Número | Clase de equivalencia | Resultado |
    | ------ | --------------------- | --------- |
@@ -17,7 +17,7 @@
    | 6 | tarifa base negativa | Incorrecto |
    | 7 | tarifa base mayor a cero | Correcto |
 
-3)
+# 3
 
    | Número | Ejemplo clase de equivalencia | Resultado |
    | ------ | --------------------- | --------- |
@@ -28,13 +28,13 @@
    | 5 | calculoTarifa(-1000000, 3, 43) | Incorrecto |
    | 6 | calculoTarifa(2000000, 18, 78) | Correcto |
 
-4)
+# 4
 
    - La frontera de los días es 0
    - La frontera de la edad es 1
    - La frontera de la tarifa es 0
  
-5)
+# 5
 
    | Número | Ejemplo Frontera | Resultado |
    | ------ | --------------------- | --------- |
